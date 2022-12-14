@@ -1,0 +1,25 @@
+
+
+.headerContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+
+}
+
+.nav ul {
+  display: flex;
+}
+.nav ul li{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 25px;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 500;
+}
+.nav ul li:hover{
+    cursor: pointer;
+    color: rgb(255, 238, 2);
+}
