@@ -1,0 +1,82 @@
+
+/* #2568fb blue*/
+/* #490b3d bunni */
+/* #161f6d blue */
+/* #00458b blue */
+/* #e40c2b red */
+/* #3cbcc3 */
+/* #5626c4 */
+/* #facd3d yellow */
+/* #9e15bf */
+/* #182978  */
+/* #45af2a green */
+/* #44449b */
+body{
+    background-color: #fff;
+}
+
+.homeContainer{
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.homeHeader{
+    background-color: #161f6d  ;
+    color: #fff;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo p{
+  font-size: 35px;
+  font-weight: 600;
+}
+.headerBtn button{
+    padding: 10px 25px;
+    font-size: 20px;
+}
+.homeSection{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+.leftSection{
+   
+    width: 50%;
+    
+}
+.leftSection h1{
+    font-size: 48px;
+}
+.leftSection p{
+ margin-top:  30px;
+ font-size: 20px;
+ line-height: 35px;
+}
+.rightSection{
+    width: 50%;
+    padding: 20px;
+}
+.rightSection img{
+    width: 600px;
+    height: 600px;
+}
+.buttons button {
+
+ margin: 10px;
+ padding: 10px 20px;
+ border: none;
+ color: #fff;
+ background-color: #490b3d;
+}
+.buttons button a{
+    text-decoration: none;
+    color: #fff;
+}
+.buttons button:hover{
+    background-color: #770a61;
+    cursor: pointer;
+}

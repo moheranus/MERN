@@ -12,6 +12,7 @@ function Register() {
                <input type="password"name='password'placeholder="Confirm password"/>
                <input type='submit'value='submit'className='registerButton'/>
                <p>Already have an account<a href="login">Login now</a></p>
+               <p>Forgot Password<a href="login">Reset password</a></p>
         </form>
 
 
